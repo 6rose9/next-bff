@@ -49,6 +49,14 @@ export default async function MovieList() {
                 Director
               </Typography>
             </TableCell>
+            <TableCell>
+              <Typography
+                variant="subtitle2"
+                fontWeight={600}
+              >
+                Phone Number
+              </Typography>
+            </TableCell>
             <TableCell align="right">
               <Typography
                 variant="subtitle2"

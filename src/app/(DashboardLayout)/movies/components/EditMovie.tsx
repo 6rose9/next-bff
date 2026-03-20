@@ -10,7 +10,7 @@ interface EditMovieProps
     movie:Movie
 }
 
-export default function EditMovieButton({movie}:EditMovieProps)
+export default function EditMovie({movie}:EditMovieProps)
 {
     const [open, setOpen] = useState(false);
     const handleClickOpen = ()=>{

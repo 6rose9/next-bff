@@ -43,6 +43,17 @@ export default function MovieRow({ movie }: MovieRowProps) {
         </Typography>
       </TableCell>
 
+      <TableCell>
+        <Typography
+          sx={{
+            fontSize: "15px",
+            fontWeight: "500",
+          }}
+        >
+          {movie.director.phoneNo ?? "Unknown"}
+        </Typography>
+      </TableCell>
+
       <TableCell align="right" className="d-flex">
         <NavButton
           label={"Details"}
